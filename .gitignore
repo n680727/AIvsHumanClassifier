@@ -73,6 +73,7 @@ data/
 *.feather
 *.csv
 *.rar
+*.png
 
 # 敏感信息
 secrets/
