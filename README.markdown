@@ -19,10 +19,10 @@
 以下是模型訓練和評估的視覺化結果：
 
 ### 訓練損失曲線
-![Training Loss Curve](figures/loss_plot.png)
+![loss_plot](https://github.com/user-attachments/assets/f2b49559-5b2e-45ed-b82e-23a99b8d18c1)
 
 ### 混淆矩陣
-![Confusion Matrix](figures/confusion_matrix.png)
+![Confusion Matrix](https://github.com/user-attachments/assets/273d7878-e25f-4f16-b8bf-afe9af152002)
 
 ## 倉庫結構
 ```
@@ -143,12 +143,3 @@ python loss_plot.py
 - 在 Conda 環境中運行時，確保已激活 `ai_vs_human` 環境。
 - 圖片文件（`loss_plot.png` 和 `confusion_matrix.png`）需位於 `figures/` 目錄下，以確保 README 正確顯示。
 - 由於 AI 技術快速進步，對於較新的 AI 生成文本（如來自先進模型的文本），本模型可能無法有效區分，建議定期更新訓練數據以提升性能。
-
-## 貢獻
-歡迎對本項目提出建議或貢獻代碼！請提交 Pull Request 或開啟 Issue 討論。
-
-## 許可證
-本項目採用 [MIT 許可證](LICENSE)。詳情請參閱 `LICENSE` 文件。
-
-## 聯繫方式
-如有問題或建議，請通過 GitHub Issue 聯繫，或發送郵件至 [your-email@example.com]。
