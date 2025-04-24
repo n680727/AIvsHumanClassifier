@@ -1,0 +1,82 @@
+# Python 緩存文件和編譯文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虛擬環境
+venv/
+env/
+.venv/
+.env/
+virtualenv/
+
+# 環境配置文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 依賴管理
+Pipfile.lock
+requirements.txt  # 如果你希望手動管理這個文件，可選擇不忽略
+poetry.lock  # 如果使用 Poetry，可根據需要決定是否忽略
+
+# 日誌文件
+*.log
+logs/
+*.log.*
+
+# 編輯器和 IDE 相關文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 測試和覆蓋率報告
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+pytest_cache/
+
+# 數據庫和臨時文件
+*.sqlite3
+*.db
+*.sql
+
+# 構建和分發相關
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+
+# Jupyter Notebook 檢查點
+.ipynb_checkpoints/
+
+# 系統生成的文件
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# 其他臨時文件
+*.bak
+*.swp
+*~
+data/
+saved_model/
+# 项目特定的數據文件（根據需要添加）
+data/
+*.csv  # 如果你的數據文件不需要版本控制
+*.json
+*.parquet
+*.feather
+*.csv
+*.rar
+
+# 敏感信息
+secrets/
+credentials.json
+*.pem
+*.key
+*.cert
